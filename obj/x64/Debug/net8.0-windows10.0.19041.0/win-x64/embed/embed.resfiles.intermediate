@@ -1,5 +1,9 @@
 App.xbf
+Controls\MyDialog.xbf
+Controls\ucError.xbf
+Controls\ucIO.xbf
 Controls\ucMain.xbf
+Controls\ucManual.xbf
 Controls\ucRecipe.xbf
 Controls\ucSetting.xbf
 MainWindow.xbf

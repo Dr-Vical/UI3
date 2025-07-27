@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentDialog
+    x:Class="Test1.Controls.MyDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="알림"
+    PrimaryButtonText="확인"
+    CloseButtonText="취소"
+    DefaultButton="Primary">
+
+    <TextBlock Text="정말로 실행하시겠습니까?" />
+</ContentDialog>
+

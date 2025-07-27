@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UI3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\controls\\mydialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:controls\\mydialog.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\controls\\mydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:controls\\mydialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\controls\\ucerror.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:controls\\ucerror.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\controls\\ucmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:controls\\ucmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\models\\btn_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:models\\btn_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|e:\\ui3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F2E82D3-BE10-4566-8FED-9CA5B65A3705}|Test1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ucError.xaml",
+              "DocumentMoniker": "E:\\UI3\\Controls\\ucError.xaml",
+              "RelativeDocumentMoniker": "Controls\\ucError.xaml",
+              "ToolTip": "E:\\UI3\\Controls\\ucError.xaml",
+              "RelativeToolTip": "Controls\\ucError.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T09:48:57.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyDialog.xaml.cs",
+              "DocumentMoniker": "E:\\UI3\\Controls\\MyDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Controls\\MyDialog.xaml.cs",
+              "ToolTip": "E:\\UI3\\Controls\\MyDialog.xaml.cs",
+              "RelativeToolTip": "Controls\\MyDialog.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T09:45:40.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyDialog.xaml",
+              "DocumentMoniker": "E:\\UI3\\Controls\\MyDialog.xaml",
+              "RelativeDocumentMoniker": "Controls\\MyDialog.xaml",
+              "ToolTip": "E:\\UI3\\Controls\\MyDialog.xaml",
+              "RelativeToolTip": "Controls\\MyDialog.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T09:44:50.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\UI3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\UI3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAewE8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T07:48:35.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\UI3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\UI3\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T07:37:21.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\UI3\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "E:\\UI3\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T07:49:17.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ucMain.xaml",
+              "DocumentMoniker": "E:\\UI3\\Controls\\ucMain.xaml",
+              "RelativeDocumentMoniker": "Controls\\ucMain.xaml",
+              "ToolTip": "E:\\UI3\\Controls\\ucMain.xaml",
+              "RelativeToolTip": "Controls\\ucMain.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-27T07:37:44.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Btn_Model.cs",
+              "DocumentMoniker": "E:\\UI3\\Models\\Btn_Model.cs",
+              "RelativeDocumentMoniker": "Models\\Btn_Model.cs",
+              "ToolTip": "E:\\UI3\\Models\\Btn_Model.cs",
+              "RelativeToolTip": "Models\\Btn_Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T07:37:33.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

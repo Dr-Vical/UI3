@@ -15,18 +15,44 @@
         <MicaBackdrop />
     </Window.SystemBackdrop>
 
-        <winui:NavigationView x:Name="MainNav" SelectionChanged="MainNav_SelectionChanged" PaneDisplayMode="Left" 
-                               IsPaneOpen="True" OpenPaneLength="200" IsBackButtonVisible="Visible">
-            <winui:NavigationView.MenuItems>
-                <winui:NavigationViewItem Content="메인"   Tag="Main"     Icon="Home"    Height="50" FontSize="20"/>
-                <winui:NavigationViewItem Content="설정"   Tag="Settings" Icon="Setting" Height="50" FontSize="20"/>
-                <winui:NavigationViewItem Content="레시피" Tag="Recipe"   Icon="Help"    Height="50" FontSize="20"/>
-            </winui:NavigationView.MenuItems>
+    <winui:NavigationView x:Name="MainNav" SelectionChanged="MainNav_SelectionChanged" PaneDisplayMode="Left" 
+                               IsPaneOpen="True" OpenPaneLength="200" IsBackButtonVisible="Collapsed" PaneOpening="MainNav_PaneOpening">
+        
+        <winui:NavigationView.MenuItems>
+            <winui:NavigationViewItem Content="Main"  Tag="Main" Icon="Home"  Height="50" FontSize="18"/>
 
-            <Grid>
-                <!-- 여기서 유저컨트롤이 바뀌어 표시됨 -->
-                <ContentControl x:Name="MainContent"/>
+            <winui:NavigationViewItem Content="Manual" Tag="Manual" Height="50" FontSize="18">
+                <winui:NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xEb91;" FontFamily="Segoe MDL2 Assets" />
+                </winui:NavigationViewItem.Icon>
+            </winui:NavigationViewItem>
+
+            <winui:NavigationViewItem Content="Recipe" Tag="Recipe" Height="50" FontSize="18">
+                <winui:NavigationViewItem.Icon>
+                    <BitmapIcon UriSource="ms-appx:///Assets/Reci.png" Width="25" Height="25" />
+                </winui:NavigationViewItem.Icon>
+            </winui:NavigationViewItem>
+
+            <winui:NavigationViewItem Content="I/O" Tag="IO" Height="50" FontSize="18">
+                <winui:NavigationViewItem.Icon>
+                    <BitmapIcon UriSource="ms-appx:///Assets/Input.png" Width="25" Height="25" />
+                </winui:NavigationViewItem.Icon>
+            </winui:NavigationViewItem>
+
+            <winui:NavigationViewItem Content="Error" Tag="Error" Height="50" FontSize="18">
+                <winui:NavigationViewItem.Icon>
+                    <BitmapIcon UriSource="ms-appx:///Assets/Err.png" Width="25" Height="25" />
+                </winui:NavigationViewItem.Icon>
+            </winui:NavigationViewItem>
+
+
+        </winui:NavigationView.MenuItems>
+
+        <Grid>
+            <!-- 여기서 유저컨트롤이 바뀌어 표시됨 -->
+            <ContentControl x:Name="MainContent"/>
 
         </Grid>
-        </winui:NavigationView>
-    </Window>
+
+    </winui:NavigationView>
+</Window>

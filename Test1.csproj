@@ -18,10 +18,24 @@
     <Content Remove="Assets\BadgeLogo.scale-150.png" />
     <Content Remove="Assets\BadgeLogo.scale-200.png" />
     <Content Remove="Assets\BadgeLogo.scale-400.png" />
+    <Content Remove="Assets\Setting.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Assets\Auto.png" />
+    <None Remove="Assets\Auto2.png" />
+    <None Remove="Assets\Auto3.png" />
+    <None Remove="Assets\DataErr.png" />
+    <None Remove="Assets\Err.png" />
+    <None Remove="Assets\Input.png" />
+    <None Remove="Assets\Reci.png" />
+    <None Remove="Assets\Tune.png" />
+    <None Remove="Controls\MyDialog.xaml" />
+    <None Remove="Controls\ucError.xaml" />
+    <None Remove="Controls\ucIO.xaml" />
+    <None Remove="Controls\ucManual.xaml" />
     <None Remove="Controls\ucRecipe.xaml" />
     <None Remove="Controls\ucSetting.xaml" />
+    <None Remove="Helpers\Dialog.xaml" />
     <None Remove="ucMain.xaml" />
   </ItemGroup>
 
@@ -59,10 +73,40 @@
     <PackageReference Include="PInvoke.User32" Version="0.7.124" />
   </ItemGroup>
   <ItemGroup>
+    <Content Update="Assets\Auto.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Auto2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Auto3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\DataErr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Err.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="Assets\free-icon-pie-chart-4592857.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Update="Assets\Input.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="Assets\pie_chart_icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Reci.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\softwar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\software.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Tune.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -71,6 +115,21 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+    <Page Update="Controls\MyDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Helpers\Dialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\ucIO.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\ucManual.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Controls\ucError.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="Controls\ucSetting.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -80,6 +139,9 @@
     <Page Update="ucMain.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Etc\" />
   </ItemGroup>
 
   <!--

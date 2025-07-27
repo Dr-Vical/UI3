@@ -9,7 +9,7 @@
     mc:Ignorable="d">
 
     <Grid>
-<TextBlock Text="여기는 셋팅입니다" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="여기는 셋팅입니다" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
     </Grid>
 </UserControl>

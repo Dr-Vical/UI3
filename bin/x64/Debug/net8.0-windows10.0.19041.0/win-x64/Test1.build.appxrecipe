@@ -10,40 +10,70 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f279552e-29d9-4998-a1c2-10150ecccc9a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Vical</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\Day1\Test1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\UI3\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>E:\Day1\Test1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <LayoutDir>E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\Day1\Test1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+    <AppXManifest Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\Day1\Test1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+    <AppxPackagedFile Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.runtimeconfig.json">
+    <AppxPackagedFile Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.runtimeconfig.json">
       <PackagePath>Test1.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.dll">
+    <AppxPackagedFile Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.dll">
       <PackagePath>Test1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\free-icon-pie-chart-4592857.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Auto.png">
+      <PackagePath>Assets\Auto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Auto2.png">
+      <PackagePath>Assets\Auto2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Auto3.png">
+      <PackagePath>Assets\Auto3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\DataErr.png">
+      <PackagePath>Assets\DataErr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Err.png">
+      <PackagePath>Assets\Err.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\free-icon-pie-chart-4592857.png">
       <PackagePath>Assets\free-icon-pie-chart-4592857.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\pie_chart_icon.ico">
+    <AppxPackagedFile Include="E:\UI3\Assets\Input.png">
+      <PackagePath>Assets\Input.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\pie_chart_icon.ico">
       <PackagePath>Assets\pie_chart_icon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+    <AppxPackagedFile Include="E:\UI3\Assets\Reci.png">
+      <PackagePath>Assets\Reci.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\softwar.png">
+      <PackagePath>Assets\softwar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\software.png">
+      <PackagePath>Assets\software.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Tune.png">
+      <PackagePath>Assets\Tune.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>Test1.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ikhar\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.18\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
@@ -706,160 +736,187 @@
     <AppxPackagedFile Include="C:\Users\ikhar\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.deps.json">
+    <AppxPackagedFile Include="E:\UI3\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.deps.json">
       <PackagePath>Test1.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\cable_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\cable_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\decimal_decrease_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\decimal_decrease_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\decimal_increase_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\decimal_increase_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\motion_play_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\motion_play_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\play_arrow_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\play_arrow_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\play_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\play_circle_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\terminal_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\terminal_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\toggle_off_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\toggle_off_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\Set\usb_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png">
+      <PackagePath>Assets\Set\usb_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\UI3\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\StoreLogo.backup.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\StoreLogo.backup.png">
       <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\Day1\Test1\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\UI3\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

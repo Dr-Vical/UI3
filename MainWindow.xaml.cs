@@ -36,19 +36,54 @@ namespace Test1
         {
             if (args.SelectedItem is NavigationViewItem selectedItem)
             {
+
                 string tag = selectedItem.Tag?.ToString();
                 switch (tag)
                 {
                     case "Main":
                         MainContent.Content = new Controls.ucMain();
                         break;
-                    case "Settings":
-                        MainContent.Content = new Controls.ucSetting();
+                    case "Manual":
+                        MainContent.Content = new Controls.ucManual();
                         break;
                     case "Recipe":
                         MainContent.Content = new Controls.ucRecipe();
                         break;
+                    case "IO":
+                        MainContent.Content = new Controls.ucIO();
+                        break;
+                    case "Error":
+                        MainContent.Content = new Controls.ucError();
+                        break;
+                    case "Settings":
+                        MainContent.Content = new Controls.ucSetting();
+                        break;
+
                 }
+            }
+        }
+
+        private async void MainNav_PaneOpening(NavigationView sender, object args)
+        {
+            var dialog = new Controls.MyDialog
+            {
+                XamlRoot = this.Content.XamlRoot // 꼭 필요한 부분!
+            };
+
+            var result = await dialog.ShowAsync();
+
+            if (result == ContentDialogResult.Primary)
+            {
+                // 예 눌렀을 때 실행할 로직
+                // 예: MessageBox 스타일의 알림
+                var confirm = new ContentDialog
+                {
+                    Title = "확인됨",
+                    Content = "레시피가 삭제되었습니다!",
+                    CloseButtonText = "확인",
+                    XamlRoot = this.Content.XamlRoot
+                };
+                await confirm.ShowAsync();
             }
         }
     }
