@@ -17,13 +17,29 @@
 
     <winui:NavigationView x:Name="MainNav" SelectionChanged="MainNav_SelectionChanged" PaneDisplayMode="Left" 
                                IsPaneOpen="True" OpenPaneLength="200" IsBackButtonVisible="Collapsed" PaneOpening="MainNav_PaneOpening">
+
+        <winui:NavigationView.Resources>
+            <Storyboard x:Name="ManualSpinStoryboard">
+                <DoubleAnimationUsingKeyFrames
+                Storyboard.TargetName="ManualIcon"
+                    Storyboard.TargetProperty="(UIElement.RenderTransform).(RotateTransform.Angle)">
+
+                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0" />
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.25" Value="720" />
+                </DoubleAnimationUsingKeyFrames>
+            </Storyboard>
+        </winui:NavigationView.Resources>
         
         <winui:NavigationView.MenuItems>
             <winui:NavigationViewItem Content="Main"  Tag="Main" Icon="Home"  Height="50" FontSize="18"/>
 
             <winui:NavigationViewItem Content="Manual" Tag="Manual" Height="50" FontSize="18">
                 <winui:NavigationViewItem.Icon>
-                    <FontIcon Glyph="&#xEb91;" FontFamily="Segoe MDL2 Assets" />
+                    <FontIcon x:Name="ManualIcon" Glyph="&#xEb91;" FontFamily="Segoe MDL2 Assets" >
+                        <FontIcon.RenderTransform>
+                            <RotateTransform Angle="0" CenterX="12" CenterY="12" />
+                        </FontIcon.RenderTransform>
+                    </FontIcon>
                 </winui:NavigationViewItem.Icon>
             </winui:NavigationViewItem>
 
@@ -48,10 +64,11 @@
 
         </winui:NavigationView.MenuItems>
 
+
+
         <Grid>
             <!-- 여기서 유저컨트롤이 바뀌어 표시됨 -->
             <ContentControl x:Name="MainContent"/>
-
         </Grid>
 
     </winui:NavigationView>

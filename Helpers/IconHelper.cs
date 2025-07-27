@@ -1,10 +1,14 @@
-﻿using System;
+﻿using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml;
+using PInvoke;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
-using PInvoke;
 
 namespace Test1.Helpers
 {
@@ -29,6 +33,35 @@ namespace Test1.Helpers
             User32.SendMessage(hwnd, User32.WindowMessage.WM_SETICON, (IntPtr)1, hIcon);
             User32.SendMessage(hwnd, User32.WindowMessage.WM_SETICON, (IntPtr)0, hIcon);
 
+        }
+        public static void SpinIcons(NavigationView navView)
+        {
+            foreach (var item in navView.MenuItems.OfType<NavigationViewItem>())
+            {
+                if (item.Icon is FontIcon fontIcon)
+                {
+                    // 회전 transform이 없으면 추가
+                    if (fontIcon.RenderTransform == null)
+                    {
+                        fontIcon.RenderTransform = new RotateTransform() { CenterX = 12, CenterY = 12 };
+                    }
+
+                    // 스토리보드 생성
+                    var rotate = new DoubleAnimation()
+                    {
+                        From = 0,
+                        To = 720,
+                        Duration = new Duration(TimeSpan.FromMilliseconds(500)),
+                        EasingFunction = new SineEase()
+                    };
+
+                    var storyboard = new Storyboard();
+                    Storyboard.SetTarget(rotate, fontIcon);
+                    Storyboard.SetTargetProperty(rotate, "(UIElement.RenderTransform).(RotateTransform.Angle)");
+                    storyboard.Children.Add(rotate);
+                    storyboard.Begin();
+                }
+            }
         }
     }
 }

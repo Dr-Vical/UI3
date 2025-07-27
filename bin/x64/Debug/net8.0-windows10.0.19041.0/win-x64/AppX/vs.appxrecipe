@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-07-27T09:59:41.186</Modified>
+      <Modified>2025-07-27T14:01:57.006</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-07-27T09:59:40.918</Modified>
+      <Modified>2025-07-27T14:01:05.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.runtimeconfig.json">
       <PackagePath>Test1.runtimeconfig.json</PackagePath>
@@ -44,7 +44,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UI3\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Test1.dll">
       <PackagePath>Test1.dll</PackagePath>
-      <Modified>2025-07-27T09:59:40.381</Modified>
+      <Modified>2025-07-27T14:01:56.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UI3\Assets\Auto.png">
       <PackagePath>Assets\Auto.png</PackagePath>
@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UI3\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
       <PackagePath>Test1.exe</PackagePath>
-      <Modified>2025-07-27T09:59:40.393</Modified>
+      <Modified>2025-07-27T14:01:56.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\UI3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

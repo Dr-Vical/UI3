@@ -41,21 +41,28 @@ namespace Test1
                 switch (tag)
                 {
                     case "Main":
+                        Helpers.IconHelper.SpinIcons(MainNav);
                         MainContent.Content = new Controls.ucMain();
                         break;
+
                     case "Manual":
+                        Helpers.IconHelper.SpinIcons(MainNav);
                         MainContent.Content = new Controls.ucManual();
                         break;
                     case "Recipe":
+                        Helpers.IconHelper.SpinIcons(MainNav);
                         MainContent.Content = new Controls.ucRecipe();
                         break;
                     case "IO":
+                        Helpers.IconHelper.SpinIcons(MainNav);
                         MainContent.Content = new Controls.ucIO();
                         break;
                     case "Error":
+                        Helpers.IconHelper.SpinIcons(MainNav);
                         MainContent.Content = new Controls.ucError();
                         break;
                     case "Settings":
+                        Helpers.IconHelper.SpinIcons(MainNav);
                         MainContent.Content = new Controls.ucSetting();
                         break;
 
