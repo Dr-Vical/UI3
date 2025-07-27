@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Test1.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Test1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:winui="using:Microsoft.UI.Xaml.Controls"
+    xmlns:controls="using:Test1.Controls"
+    mc:Ignorable="d"
+    Title="Test1">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+        <winui:NavigationView x:ConnectionId='2' x:Name="MainNav"                                             PaneDisplayMode="Left" 
+                               IsPaneOpen="True" OpenPaneLength="200" IsBackButtonVisible="Visible">
+            <winui:NavigationView.MenuItems>
+                <winui:NavigationViewItem Content="메인"   Tag="Main"     Icon="Home"    Height="50" FontSize="20"/>
+                <winui:NavigationViewItem Content="설정"   Tag="Settings" Icon="Setting" Height="50" FontSize="20"/>
+                <winui:NavigationViewItem Content="레시피" Tag="Recipe"   Icon="Help"    Height="50" FontSize="20"/>
+            </winui:NavigationView.MenuItems>
+
+            <Grid>
+                <!-- 여기서 유저컨트롤이 바뀌어 표시됨 -->
+                <ContentControl x:ConnectionId='3' x:Name="MainContent"/>
+
+        </Grid>
+        </winui:NavigationView>
+    </Window>
+
